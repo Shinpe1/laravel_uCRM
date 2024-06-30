@@ -7,6 +7,7 @@ import Pagination from '@/Components/Pagination.vue'
 import { Inertia } from '@inertiajs/inertia';
 import dayjs from 'dayjs'
 
+const search = ref('');
 
 const props = defineProps({
     orders: Object
